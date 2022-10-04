@@ -16,6 +16,9 @@
 		3F60BFE428EB9CE40017837B /* Editable_TableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60BFE328EB9CE40017837B /* Editable_TableviewTests.swift */; };
 		3F60BFEE28EB9CE40017837B /* Editable_TableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60BFED28EB9CE40017837B /* Editable_TableviewUITests.swift */; };
 		3F60BFF028EB9CE40017837B /* Editable_TableviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60BFEF28EB9CE40017837B /* Editable_TableviewUITestsLaunchTests.swift */; };
+		3F60BFFD28EBA0540017837B /* FoodUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60BFFC28EBA0540017837B /* FoodUITableViewController.swift */; };
+		3F60C00128EBA1BE0017837B /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60C00028EBA1BE0017837B /* Food.swift */; };
+		3F60C00328EBA24D0017837B /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60C00228EBA24D0017837B /* FoodList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3F60BFE928EB9CE40017837B /* Editable_TableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Editable_TableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F60BFED28EB9CE40017837B /* Editable_TableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editable_TableviewUITests.swift; sourceTree = "<group>"; };
 		3F60BFEF28EB9CE40017837B /* Editable_TableviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editable_TableviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F60BFFC28EBA0540017837B /* FoodUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodUITableViewController.swift; sourceTree = "<group>"; };
+		3F60C00028EBA1BE0017837B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		3F60C00228EBA24D0017837B /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3F60BFCE28EB9CE20017837B /* SceneDelegate.swift */,
 				3F60BFD028EB9CE20017837B /* ViewController.swift */,
 				3F60BFD228EB9CE20017837B /* Main.storyboard */,
+				3F60C00028EBA1BE0017837B /* Food.swift */,
+				3F60C00228EBA24D0017837B /* FoodList.swift */,
+				3F60BFFC28EBA0540017837B /* FoodUITableViewController.swift */,
 				3F60BFD528EB9CE40017837B /* Assets.xcassets */,
 				3F60BFD728EB9CE40017837B /* LaunchScreen.storyboard */,
 				3F60BFDA28EB9CE40017837B /* Info.plist */,
@@ -260,7 +269,10 @@
 			files = (
 				3F60BFD128EB9CE20017837B /* ViewController.swift in Sources */,
 				3F60BFCD28EB9CE20017837B /* AppDelegate.swift in Sources */,
+				3F60C00128EBA1BE0017837B /* Food.swift in Sources */,
+				3F60C00328EBA24D0017837B /* FoodList.swift in Sources */,
 				3F60BFCF28EB9CE20017837B /* SceneDelegate.swift in Sources */,
+				3F60BFFD28EBA0540017837B /* FoodUITableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
